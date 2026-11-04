@@ -1,37 +1,48 @@
 ```text
-.   .   .   .   .   .   .   .   .      ceejay@developer ─────────────────────────────────────────
-                                       . Role: ............. Programmer, iGraphIT capstone team
-.   .   .   .   .   .   .   .   .      . Host: ............. Dominican College of Tarlac
-                                       . Degree: ........... BS Information Technology
-.   .   .   .   .   .   .   .   .      . Focus: ............ Mobile apps, web apps, APIs
-       ╭────────────╮                  . Off-hours: ........ Games, music
-       │   START    │
-       ╰────────────╯                  - Client ─────────────────────────────────────────────────
-              v                        . Frameworks: ....... React Native, Expo, Expo Router, React
-      ┌──────────────┐                 . Languages: ........ TypeScript, JavaScript, HTML, CSS
-      │    design    │<────────┐       . Platform: ......... Progressive Web Apps
-      └──────────────┘         │       . Diagramming: ...... @maxgraph/core
-              v                │
-      ┌──────────────┐         │       - Server ─────────────────────────────────────────────────
-      │    build     │         │       . Runtime: .......... Node.js, Express
-      └──────────────┘         │       . Auth: ............. JWT, bcrypt, Nodemailer OTP
-              v                │       . Database: ......... Firebase, Firestore
-   /────────────────────\  no  │
-  <     tests pass?      >─────┘       - Projects ───────────────────────────────────────────────
-   \────────────────────/              . iGraphIT: ......... SDLC + UML learning PWA
-              v  yes                   . photobook: ........ TypeScript
-      ┌──────────────┐                 . portfolio: ........ HTML, personal site
-      │     ship     │                 . last-light-game: .. JavaScript
-      └──────────────┘
-              v                        - iGraphIT ───────────────────────────────────────────────
-       ╭────────────╮                  . Diagram types: .... 18
-       │    LIVE    │                  . Validators: ....... 11 diagram types, shared rule engine
-       ╰────────────╯                  . Architecture: ..... Three-tier
-.   .   .   .   .   .   .   .   .      . Maintenance: ...... 4-year plan
-
-.   .   .   .   .   .   .   .   .      - Contact ────────────────────────────────────────────────
-                                       . GitHub: ........... github.com/ceejaydev1
-.   .   .   .   .   .   .   .   .      . Portfolio: ........ github.com/ceejaydev1/portfolio
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ ● ● ●                                      ceejay@developer: ~                                      │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ ceejay@developer:~$ neofetch                                                                        │
+│ .   .   .   .   .   .   .   .   .      ceejay@developer ─────────────────────────────────────────   │
+│                                        . Role: ............. Programmer, iGraphIT capstone team     │
+│        ╭────────────╮                  . Host: ............. Dominican College of Tarlac            │
+│        │   START    │                  . Degree: ........... BS Information Technology              │
+│        ╰────────────╯                  . Focus: ............ Mobile apps, web apps, APIs            │
+│               v                        . Off-hours: ........ Games, music                           │
+│       ┌──────────────┐                                                                              │
+│       │    design    │<────────┐       - Client ─────────────────────────────────────────────────   │
+│       └──────────────┘         │       . Frameworks: ....... React Native, Expo, Expo Router, React │
+│               v                │       . Languages: ........ TypeScript, JavaScript, HTML, CSS      │
+│       ┌──────────────┐         │       . Platform: ......... Progressive Web Apps                   │
+│       │    build     │         │       . Diagramming: ...... @maxgraph/core                         │
+│       └──────────────┘         │                                                                    │
+│               v                │       - Server ─────────────────────────────────────────────────   │
+│    /────────────────────\  no  │       . Runtime: .......... Node.js, Express                       │
+│   <     tests pass?      >─────┘       . Auth: ............. JWT, bcrypt, Nodemailer OTP            │
+│    \────────────────────/              . Database: ......... Firebase, Firestore                    │
+│               v  yes                                                                                │
+│       ┌──────────────┐                 - iGraphIT ───────────────────────────────────────────────   │
+│       │     ship     │                 . Diagram types: .... 18                                     │
+│       └──────────────┘                 . Validators: ....... 11 diagram types, shared rule engine   │
+│               v                        . Architecture: ..... Three-tier                             │
+│        ╭────────────╮                  . Maintenance: ...... 4-year plan                            │
+│        │    LIVE    │                                                                               │
+│        ╰────────────╯                  - Contact ────────────────────────────────────────────────   │
+│                                        . GitHub: ........... github.com/ceejaydev1                  │
+│ .   .   .   .   .   .   .   .   .      . Portfolio: ........ github.com/ceejaydev1/portfolio        │
+│                                                                                                     │
+│ ceejay@developer:~$ tree projects/                                                                  │
+│ projects/                                                                                           │
+│ ├── igraph-it         SDLC + UML learning PWA                                                       │
+│ ├── photobook         TypeScript                                                                    │
+│ ├── portfolio         HTML, personal site                                                           │
+│ └── last-light-game   JavaScript                                                                    │
+│                                                                                                     │
+│ ceejay@developer:~$ whoami                                                                          │
+│ ceejay, aspiring app and web developer                                                              │
+│                                                                                                     │
+│ ceejay@developer:~$ █                                                                               │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
 <p align="center">
