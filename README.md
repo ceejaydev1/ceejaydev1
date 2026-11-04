@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="terminal.svg" alt="Terminal session for ceejay@developer: profile, projects and git remote" width="100%">
+  <img src="terminal.svg" alt="Terminal session for Ceejay Estabillo, IT student and web developer: about, selected work, skills, path and contact" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/ceejaydev1/igraph-it">iGraphIT</a> &nbsp;·&nbsp;
-  <a href="https://github.com/ceejaydev1/photobook">photobook</a> &nbsp;·&nbsp;
-  <a href="https://github.com/ceejaydev1/portfolio">portfolio</a> &nbsp;·&nbsp;
-  <a href="https://github.com/ceejaydev1/last-light-game">last-light-game</a>
+  <a href="https://portfolio-ceejay.vercel.app/">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://portfolio-ceejay.vercel.app/Resume.pdf">Resume</a> &nbsp;·&nbsp;
+  <a href="https://igraphit.com">iGraphIT</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ceejaydev1/photobook">PhotoBook</a> &nbsp;·&nbsp;
+  <a href="mailto:ceejayestabillo76@gmail.com">Email</a>
 </p>
