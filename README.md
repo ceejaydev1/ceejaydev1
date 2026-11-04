@@ -1,42 +1,114 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Class diagram: Ceejay Estabillo builds iGraphIT, photobook, portfolio and last-light-game" src="assets/banner-dark.svg" width="100%">
-</picture>
+<h1 align="center">Ceejay Estabillo</h1>
 
-<br />
+<p align="center">
+  Application developer · TypeScript end to end<br />
+  <sub>BS Information Technology, Dominican College of Tarlac</sub>
+</p>
 
-I build mobile and web applications with a focus on clean architecture, predictable state, and interfaces that hold up across screen sizes. My work is TypeScript end to end: React Native and Expo on the client, Node.js and Express on the server, Firestore for persistence.
+<p align="center">
+  <a href="#profile-as-a-class-diagram">Profile</a> &nbsp;·&nbsp;
+  <a href="#featured-project">Featured project</a> &nbsp;·&nbsp;
+  <a href="#repositories">Repositories</a> &nbsp;·&nbsp;
+  <a href="#stack">Stack</a> &nbsp;·&nbsp;
+  <a href="#status">Status</a>
+</p>
+
+---
+
+I build mobile and web applications with a focus on clean architecture, predictable state, and interfaces that hold up across screen sizes. React Native and Expo on the client, Node.js and Express on the server, Firestore for persistence.
 
 I am the programmer on a four-year capstone project, where I own the front end, the API, and the diagram-rendering layer.
 
-<br />
+## Profile as a class diagram
 
-## Featured project: iGraphIT
+My capstone is a UML learning tool, so this is my profile in the notation it teaches.
 
-A Progressive Web Application that teaches SDLC models and lets students build UML diagrams with rule-based validation. 18 diagram types, from flowcharts and DFDs to class and sequence diagrams.
+```mermaid
+classDiagram
+    direction LR
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/architecture-light.svg">
-  <img alt="iGraphIT three-tier architecture: Expo client, Express API, Firestore" src="assets/architecture-dark.svg" width="100%">
-</picture>
+    class CeejayEstabillo {
+        <<developer>>
+        +role ApplicationDeveloper
+        +school DominicanCollegeOfTarlac
+        +design() Architecture
+        +build() Product
+        +ship() Release
+    }
+
+    class Toolchain {
+        <<stack>>
+        TypeScript
+        React Native
+        Expo Router
+        Node.js
+        Express
+        Firestore
+    }
+
+    class IGraphIT["iGraphIT"] {
+        <<capstone>>
+        SDLC learning
+        UML diagramming
+        18 diagram types
+    }
+
+    class Photobook["photobook"] {
+        <<TypeScript>>
+    }
+
+    class Portfolio["portfolio"] {
+        <<HTML>>
+    }
+
+    class LastLight["last-light-game"] {
+        <<JavaScript>>
+    }
+
+    CeejayEstabillo ..> Toolchain : uses
+    CeejayEstabillo "1" --> "*" IGraphIT : builds
+    CeejayEstabillo --> Photobook
+    CeejayEstabillo --> Portfolio
+    CeejayEstabillo --> LastLight
+```
+
+## Featured project
+
+### iGraphIT
+
+A Progressive Web Application that teaches SDLC models and lets students build UML diagrams with rule-based validation, covering 18 diagram types from flowcharts and DFDs to class and sequence diagrams.
+
+```mermaid
+flowchart LR
+    subgraph P["Presentation"]
+        A["<b>Expo client</b><br/>React Native · Expo Router<br/>TypeScript · @maxgraph/core"]
+    end
+    subgraph L["Application"]
+        B["<b>Express API</b><br/>Node.js · JWT · bcrypt<br/>Nodemailer OTP"]
+    end
+    subgraph D["Data"]
+        C[("<b>Firestore</b><br/>students · otp_codes<br/>diagram_types · learning_modules<br/>student_diagrams")]
+    end
+
+    A <-->|HTTPS / JSON| B
+    B <-->|read / write| C
+```
 
 <details>
 <summary><b>Engineering notes</b></summary>
 <br />
 
-- **Diagram editor.** Custom `UniversalVertexHandler` on top of `@maxgraph/core`, giving draw.io-style selection and rotation handles through the library's native rotation pipeline.
-- **Validation engine.** One shared structural rule engine behind 11 diagram-type validators, so each diagram type is checked against its own notation rules.
-- **Authentication.** Express API with JWT access and refresh tokens, bcrypt password hashing, and OTP email verification through Nodemailer.
-- **Google sign-in.** Redirect flow on mobile, selected by touch-capability detection rather than user-agent sniffing.
-- **Performance.** Cache-first profile loading on the account screen.
+| Area | What I built |
+| :-- | :-- |
+| **Diagram editor** | Custom `UniversalVertexHandler` on `@maxgraph/core`, giving draw.io-style selection and rotation handles through the library's native rotation pipeline |
+| **Validation** | One shared structural rule engine behind 11 diagram-type validators, so every diagram is checked against its own notation rules |
+| **Authentication** | Express API with JWT access and refresh tokens, bcrypt password hashing, and OTP email verification through Nodemailer |
+| **Google sign-in** | Redirect flow on mobile, chosen by touch-capability detection rather than user-agent sniffing |
+| **Performance** | Cache-first profile loading on the account screen |
 
 </details>
 
 [View repository →](https://github.com/ceejaydev1/igraph-it)
-
-<br />
 
 ## Repositories
 
@@ -46,8 +118,6 @@ A Progressive Web Application that teaches SDLC models and lets students build U
 | [photobook](https://github.com/ceejaydev1/photobook) | TypeScript | <!-- one-line description --> |
 | [portfolio](https://github.com/ceejaydev1/portfolio) | HTML | Personal portfolio site |
 | [last-light-game](https://github.com/ceejaydev1/last-light-game) | JavaScript | <!-- one-line description --> |
-
-<br />
 
 ## Stack
 
@@ -59,14 +129,11 @@ A Progressive Web Application that teaches SDLC models and lets students build U
 | **Data** | Firebase · Firestore |
 | **Tooling** | Git · GitHub · Metro |
 
-<br />
-
 ## Status
 
 ```ts
 const status = {
   building: "iGraphIT, capstone",
-  studying: "BS Information Technology, Dominican College of Tarlac",
   learning: ["API design", "deployment pipelines"],
   open_to:  ["internships", "collaboration"],
 } as const;
