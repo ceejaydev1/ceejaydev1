@@ -1,7 +1,10 @@
 ```text
 ╭─────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ ● ● ●                                      ceejay@developer: ~                                      │
+│ ● ● ●                             ceejay@developer: ~/projects/igraph-it                            │
 ├─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ ceejay@developer:~$ whoami                                                                          │
+│ ceejay                                                                                              │
+│                                                                                                     │
 │ ceejay@developer:~$ neofetch                                                                        │
 │ .   .   .   .   .   .   .   .   .      ceejay@developer ─────────────────────────────────────────   │
 │                                        . Role: ............. Programmer, iGraphIT capstone team     │
@@ -31,17 +34,20 @@
 │                                        . GitHub: ........... github.com/ceejaydev1                  │
 │ .   .   .   .   .   .   .   .   .      . Portfolio: ........ github.com/ceejaydev1/portfolio        │
 │                                                                                                     │
-│ ceejay@developer:~$ tree projects/                                                                  │
-│ projects/                                                                                           │
-│ ├── igraph-it         SDLC + UML learning PWA                                                       │
-│ ├── photobook         TypeScript                                                                    │
-│ ├── portfolio         HTML, personal site                                                           │
-│ └── last-light-game   JavaScript                                                                    │
+│ ceejay@developer:~$ cd projects && ls -la                                                           │
+│ total 24                                                                                            │
+│ drwxr-xr-x  6 ceejay ceejay 4096 Nov  4 09:12 .                                                     │
+│ drwxr-x--- 14 ceejay ceejay 4096 Nov  4 09:12 ..                                                    │
+│ drwxr-xr-x  9 ceejay ceejay 4096 Nov  4 09:12 igraph-it                                             │
+│ drwxr-xr-x  5 ceejay ceejay 4096 Nov  4 09:12 last-light-game                                       │
+│ drwxr-xr-x  4 ceejay ceejay 4096 Nov  4 09:12 photobook                                             │
+│ drwxr-xr-x  3 ceejay ceejay 4096 Nov  4 09:12 portfolio                                             │
 │                                                                                                     │
-│ ceejay@developer:~$ whoami                                                                          │
-│ ceejay, aspiring app and web developer                                                              │
+│ ceejay@developer:~/projects$ cd igraph-it && git remote -v                                          │
+│ origin  https://github.com/ceejaydev1/igraph-it (fetch)                                             │
+│ origin  https://github.com/ceejaydev1/igraph-it (push)                                              │
 │                                                                                                     │
-│ ceejay@developer:~$ █                                                                               │
+│ ceejay@developer:~/projects/igraph-it$ █                                                            │
 ╰─────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
